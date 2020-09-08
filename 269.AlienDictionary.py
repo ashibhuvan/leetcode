@@ -12,7 +12,7 @@ class Solution:
         for idx,val in enumerate(words[0]):
             dict.update({val:idx})
 
-        words = words[:1]
+        words = words[1:]
         print(dict)
         print(words)
 bob = Solution()
